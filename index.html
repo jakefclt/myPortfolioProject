@@ -4,18 +4,72 @@
     <meta charset="utf-8">
     <meta name="Jacob's Portfolio" content="This is my first portfolio site built at devCodeCamp in Milwaukee Wisconsin">
     <title>Jacob Fry Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <div id = "pagewrap">
-                <h1 class= "header"> Welcome to my site!</h1>
-                <div>
-                    <h2>About Me</h2>
-                </div>
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">            
+            <a class="navbar-brand" href="#">Jacob Fry <font color ="red">Portfolio</font></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>            
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What I Can Bring To The Table</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                GitHub: github.com/jakkobe
+              </span>
+            </div>
+          </nav>                
+         
+
+        <div class="container">
+            <div class="jumbotron">
+                <div class="media">
+                    <div class = "image">
+                        <img src="20180708_131815.jpg" class="img-thumbnail" alt="My daughter and me">                   
+                    </div>          
+
+                    <div class="media-body">
+                      <h5 class="mt-0">Hello! I'm Jake, an aspiring software developer. I'm a self-starter, highly motivated, enthusiastic professional ready to tackle challenging projects.</h5>
+                     
+                      <img src="download.jfif" alt="devCodeCamp">
+                      <img src="images.jfif" alt="lectures"> 
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-github"></a>
+                      <a href="#" class="fa fa-linkedin"></a>                                                                                                                                                   
+
+                    </div>
+                    
+                  </div>
+                                                
+                                                        
+                  
+               
+                 
+                <button class="btn btn-outline-primary btn-lg">Contact Me</button>
+
+                <div class="alert alert-primary" role="alert">
+                    About Me
+                  </div>
                     <div>
-                        <p>Hello! I'm Jake, an aspiring software developer. I'm a self-starter, highly motivated, enthusiastic professional ready to tackle challenging projects.
-                            Writing software is challenging but awesome. I believe if you want to be really good at something, you have to work at it every day.                            
+                        <p>
+                            Writing software is challenging but awesome! I believe if you want to be really good at something, you have to work at it every day.                            
                             That's why I'm always actively learning to develop and refine my skills.
                             That being said...
                             I am currently a student at devCodeCamp, a 12-week fully immersive software development bootcamp located in Milwaukee, Wisconsin.
@@ -26,9 +80,9 @@
 
                  
 
-                <div>
-                    <h2>Development Experience</h2>
-                </div>
+                <div class="alert alert-primary" role="alert">
+                    Development Experience
+                  </div>
 
                      <div>
                         <p><strong>Technologies</strong></p>
@@ -38,20 +92,20 @@
                         
                      </div>
 
-                 <div>
-                     <h2>Military Experience</h2>
-                 </div> 
+                     <div class="alert alert-primary" role="alert">
+                        Military Experience
+                      </div>
                     
                     <div>
-                        <p> I was a Senior Non-Commissioned Officer in the United States Army. I was as a Ranger and Airborne qualified Infantryman and an OIF/OEF combat veteran.
+                        <p> I was a Senior Non-Commissioned Officer in the United States Army. I was as a Ranger and Airborne qualified Infantryman and an OIF/OEF/OND combat veteran.
                             I held leadership positions as a Team Leader, Squad Leader, Weapons Squad Leader, Platoon Sergeant, and Observer Controller.
                             I attained the rank of Sergeant First Class (E-7) and was honorably discharged while serving with the 82nd Airborne Division.</p>
                     </div>
                  
 
-                 <div>
-                    <h2>Education and Training</h2>
-                 </div>
+                    <div class="alert alert-primary" role="alert">
+                        Education and Training
+                      </div>
 
                     <div>
                         <ul>   
@@ -61,38 +115,47 @@
                         </ul>
                     </div>
 
-                <div>
-                    <h2>Contact Me</h2>
-                </div>
-                    <div>
-                        <p>Email: jake11b4v@gmail.com</p>
-                        <p>GitHub: github.com/jakkobe </p>
+                    <div class="alert alert-primary" role="alert">
+                        Contact Me
+                      </div>
+                    <div class = "email">
+                        <p><a href="mailto:name@domain">jake11b4v@gmail.com</a></p>                        
+                        <a href="github.com/jakkobe">GitHub: github.com/jakkobe</a>
                     </div>
 
-                <div>
-                    <h2>Sample Projects</h2>
+                <div class ="sample_project">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Sample Projects">
+                        See my sample projects below in Github
+                    </button>
                 </div>
 
 
         <div id = "flexwrapper">           
 
             <div class = "box1">
-                <p>Box 01 content goes here!</p>
+                <a href="https://github.com/jakkobe/SweepstakesProj" class="badge badge-primary">Sweepstakes</a>
+                
+                <font color ="red"><strong>This is one of my early projects from devCodeCamp</strong> </font>
+               
             </div>
 
             <div class = "box2">
-                <p>Box 02 content goes here!</p>
+                <a href="https://github.com/jakkobe/LemonadeStandProj"class="badge badge-primary">Lemonade Stand</a>
+                
+                <font color = "red"><strong>A console app creation of the popular game Lemonade Stand</strong></font>
             </div>
 
             <div class = "box3">
-                <p>Box 03 content goes here!</p>
+                <a href="https://github.com/jakkobe/BinarySearchTreeProj" class="badge badge-primary">Binary Search Tree</a>
+                
+                <font color = "red"><strong>Sorting Algorithm Performance Project</strong></font>
             </div>
 
         </div>
 
     </div>
 
-    <footer><span>Footer goes here</span></footer>
+    <footer><span><Strong>Lead, Develop, Achieve</Strong></span></footer>
 
 </body>
 
